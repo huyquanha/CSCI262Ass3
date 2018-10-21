@@ -419,7 +419,7 @@ public class Traffic {
 		HashMap<String,int[]> numberMap = new HashMap<String, int[]>(); //ArrayList contain totals for each day of a type
 		HashMap<String,double[]> dailySpeedMap = new HashMap<String, double[]>(); //contain the total arrivalSpeed for each type in each day
 		HashMap<String,ArrayList<Double>> speedMap = new HashMap<String,ArrayList<Double>>(); //array list contains all speed of a type
-		HashMap<String,Integer> vehicleMap = new HashMap<String, Integer>(); //map regPlate with arrivalTime, to be able to test speed breaches
+		HashMap<String,Integer> vehicleMap = new HashMap<String,Integer>(); //map regPlate with arrivalTime, to be able to test speed breaches
 		HashMap<Integer,ArrayList<String>> breachedVehicles = new HashMap<Integer,ArrayList<String>>();
 		
 		System.out.println("Start analyzing log file...");
